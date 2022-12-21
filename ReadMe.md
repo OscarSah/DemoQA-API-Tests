@@ -26,3 +26,13 @@
     Status Code
     Depending on the requirements, we will verify headers and body
     Body Verification: path, jsonpath, POJO, Java Classes, Hemcrest Matchers
+    
+De-Serialization: JSON ----> Java Codes (Custom Classes or Collections)
+as() --- > method: Object Mappers
+
+## How to Run the Project
+  1. Install Maven locally
+  2. Java JDK Installed
+  3. Git.exe Installed
+  4. Open the folder of the project and start terminal inside that folder
+  5. run command ``mvn clean verify``
