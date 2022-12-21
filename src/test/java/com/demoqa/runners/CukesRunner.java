@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "com/demoqa/step_definitions",
-        dryRun = true,
+        dryRun = false,
         tags = ""
 )
 public class CukesRunner {
